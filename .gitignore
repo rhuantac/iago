@@ -1,0 +1,27 @@
+# Executáveis                                                             
+*.exe                                                                     
+*.out                                                                     
+                                                                          
+# Arquivos de build                                                       
+/build/                                                                   
+/bin/                                                                     
+                                                                          
+# Dependências                                                            
+/vendor/                                                                  
+                                                                          
+# IDEs                                                                    
+.idea/                                                                    
+.vscode/                                                                  
+                                                                          
+# Editores                                                                
+*.swp                                                                     
+*.swo                                                                     
+                                                                          
+# Testes                                                                  
+*_test                                                                    
+                                                                          
+# Cover                                                                   
+cover.out                                                                                                                              
+                                                                          
+#env                                                                      
+.env                  
