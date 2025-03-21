@@ -23,7 +23,7 @@ var rootCmd = &cobra.Command{
 	Long:  `Iago is an assistant that helps you with your daily tasks on terminal. It uses the power of Generative AI to provide you with the best answers and commands.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		ctx := context.Background()
-		apiKey := "AIzaSyCuZ9vUrUaATe5j9gsFo9yRXD_eX34kBRg"
+		apiKey := ""
 		if apiKey == "" {
 			fmt.Println("API key not found. Setup your GEMINI_API_KEY environment variable.")
 			return
